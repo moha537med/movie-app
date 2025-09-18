@@ -2,7 +2,7 @@ import "./globals.css";
 import { FavoritesProvider } from "@/Components/FavoritesContext";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // مهم عشان ستايل التوست
-import Navbar from "@/components/Navbar";
+import Navbar from "@/Components/Navbar";
 
 export const metadata = {
   title: "Movies App",

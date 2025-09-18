@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import MovieCard from "./MovieCard";
+import MovieCard from "@/Components/MovieCard";
 
 export default function PopularMovies() {
   const [movies, setMovies] = useState([]);

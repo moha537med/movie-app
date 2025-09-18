@@ -1,8 +1,8 @@
 
-import Footer from "@/components/Footer";
-import HeroSection from "@/components/HeroSection";
-import PopularMovies from "@/components/PopularMovies";
-import RecommendedMovies from "@/components/RecommendedMovies";
+import Footer from "@/Components/Footer";
+import HeroSection from "@/Components/HeroSection";
+import PopularMovies from "@/Components/PopularMovies";
+import RecommendedMovies from "@/Components/RecommendedMovies";
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import MovieCard from "@/components/MovieCard";
+import MovieCard from "@/Components/MovieCard";
 import { useContext } from "react";
 import { FavoritesContext } from "@/Components/FavoritesContext";
 

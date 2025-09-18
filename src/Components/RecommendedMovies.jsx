@@ -1,6 +1,6 @@
 "use client";
 
-import MovieCard from "@/components/MovieCard";
+import MovieCard from "@/Components/MovieCard";
 import { useEffect, useState } from "react";
 
 export default  function RecommendedMovies() {

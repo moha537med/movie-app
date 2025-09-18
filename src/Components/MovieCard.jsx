@@ -1,7 +1,7 @@
 "use client";
 
 import { toast } from "react-toastify";
-import Button from "@/components/Button";
+import Button from "@/Components/Button";
 import Link from "next/link";
 import Image from "next/image";
 import { useContext } from "react";

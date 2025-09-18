@@ -1,7 +1,5 @@
 import Image from "next/image";
-import Button from "@/components/Button";
-import { toast } from "react-toastify";
-import { useFavorites } from "@/components/FavoritesContext";
+
 
 export default async function MovieDetailsPage({ params }) {
 
