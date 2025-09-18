@@ -9,7 +9,7 @@ function Footer() {
 
       {/* About / Links */}
       <div className="flex-1 min-w-[200px]">
-        <h3 className="text-[#e50914] mb-3 text-lg sm:text-xl md:text-2xl font-semibold">Movie Explorer</h3>
+        <h3 className="text-[#e50914] mb-3 text-lg sm:text-xl md:text-2xl font-semibold">MoviesNest</h3>
         <p className="text-sm sm:text-base leading-relaxed">
           Explore top movies, latest releases, and all-time favorites. Discover new films every day!
         </p>
