@@ -5,6 +5,12 @@ Developed to browse trending movies, search films, view details, save favorites,
 
 ---
 
+## 🚀 Live Demo
+
+Check out the live version of this project here: [movie-app.vercel.app](https://movie-app.vercel.app)
+
+---
+
 ## 🚀 Features
 
 - **Responsive Navbar**  
@@ -54,9 +60,9 @@ Developed to browse trending movies, search films, view details, save favorites,
 
 ---
 
-## 📦 Installation  
+## 📦 Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movie-app.git
+   git clone https://github.com/MohamedHussein/movie-app.git
    cd movie-app
