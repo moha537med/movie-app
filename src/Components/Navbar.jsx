@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="max-w-[1400px] mx-auto flex items-center justify-between  h-[100px] relative px-4 md:gap-5 lg:px-8 xl:px-0 ">
+    <header className="max-w-[1250px] mx-auto flex items-center justify-between  h-[100px] relative px-4 md:gap-5 lg:px-8 xl:px-0 ">
       {/* Logo */}
       <div className="logo">
         <Link

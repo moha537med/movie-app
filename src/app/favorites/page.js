@@ -11,7 +11,7 @@ import { FavoritesContext } from "@/Components/FavoritesContext";
 
   return (
     <section className="py-8 px-5">
-      <div className="container max-w-[1400px] mx-auto">
+      <div className="container max-w-[1250px] mx-auto">
 
         <h2 className="text-white mb-5 text-2xl sm:text-3xl md:text-4xl font-semibold">⭐ Your Favorites</h2>
 

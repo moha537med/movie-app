@@ -53,7 +53,7 @@ export default function MoviesPage() {
 
   return (
     <section className="py-10 px-5 text-white">
-      <div className="container max-w-[1400px] mx-auto">
+      <div className="container max-w-[1250px] mx-auto">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-5">
           Search Movies
         </h1>

@@ -39,7 +39,7 @@ export default function MovieCard({ movie }) {
     <div
       className="bg-gradient-to-br from-[#1a1a1a] to-[#0c0c0c] 
                 border border-[#e5091450] rounded-2xl overflow-hidden 
-                text-center p-3 sm:p-4 md:p-5 lg:p-6 
+                text-center p-3  md:p-4 lg:p-5 
                 text-white cursor-pointer transition-transform duration-300 
                 hover:scale-105"
     >
@@ -71,7 +71,7 @@ export default function MovieCard({ movie }) {
           backgroundColor="#444"
           color="#fff"
           onClick={handleRemoveFavorite}
-          className="mt-3 text-sm sm:text-base"
+          className="text-sm sm:text-base"
           loading="lazy"
         />
       ) : (
@@ -81,7 +81,7 @@ export default function MovieCard({ movie }) {
           backgroundColor="#e50914"
           color="#fff"
           onClick={handleAddFavorite}
-          className="mt-3 text-sm sm:text-base"
+          className=" text-sm sm:text-base"
         />
       )}
     </div>

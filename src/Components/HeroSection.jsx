@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function HeroSection() {
   return (
   <section id="hero-home" className="py-20 mb-20 text-white px-5">
-    <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between gap-10 md:gap-5">
+    <div className="max-w-[1250px] mx-auto flex flex-col md:flex-row justify-between gap-10 md:gap-5">
 
       {/* Content */}
       <div className="flex flex-col justify-center gap-8 md:w-[45%]">

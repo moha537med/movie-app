@@ -16,7 +16,7 @@ export default async function MovieDetailsPage({ params }) {
   return (
     <section id="card-details" className="my-10 sm:my-14 md:my-20 px-5">
 
-      <div className="container max-w-[1400px] mx-auto flex flex-col gap-8 md:flex-row md:gap-12 lg:gap-16">
+      <div className="container max-w-[1250px] mx-auto flex flex-col gap-8 md:flex-row md:gap-12 lg:gap-16">
 
         {/* Description Card */}
         <div className="flex flex-col justify-center gap-6 w-full md:w-1/2">

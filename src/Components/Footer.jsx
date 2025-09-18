@@ -5,7 +5,7 @@ function Footer() {
   return (
     
   <footer className="bg-[#0a0a0a] text-white py-10 px-5 border-t border-[#222] mt-20">
-    <div className="container max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between flex-wrap gap-8">
+    <div className="container max-w-[1250px] mx-auto flex flex-col md:flex-row justify-between flex-wrap gap-8">
 
       {/* About / Links */}
       <div className="flex-1 min-w-[200px]">
