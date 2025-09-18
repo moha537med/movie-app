@@ -24,10 +24,10 @@ export default async function PopularMovies() {
 
   return (
 
-  <section id="popular-movies" className="py-8 px-5">
+  <section  className="py-5 px-5 mb-24 ">
     <div className="max-w-[1250px] mx-auto">
 
-      <h2 className=" text-3xl text-[#e50914]  md:text-4xl font-bold mb-10 lg:text-white">Popular Movies</h2>
+      <h2 className=" text-2xl text-[#e50914]  md:text-4xl font-bold mb-10 lg:text-white">Popular Movies</h2>
 
       {/* Movies cards */}
       {movies.length === 0 ? (
