@@ -43,7 +43,7 @@ function SignUp() {
     <ToastContainer position="top-center" autoClose={3000} theme="colored" />
 
     {/* container */}
-    <div className="max-w-[1100px] grid grid-cols-1 h-auto mx-auto mt-8 sm:h-[200px] md:grid-cols-2 md:mt-5 md:h-[400px] lg:mt-0 lg:h-[550px] p-4 sm:p-6 md:p-8">
+    <div className="max-w-[1100px] grid grid-cols-1 h-auto mx-auto mt-1 sm:mt-2  md:grid-cols-2 md:mt-3 lg:mt-0 lg:h-[550px] p-4 sm:p-6 md:p-8">
       {/* Description */}
       <div className="bg-[rgb(0,120,240)] text-white p-6 sm:p-8 flex flex-col gap-4 items-center justify-center">
         <h2 className="text-[22px] sm:text-[26px] md:text-[30px] font-semibold text-center">
