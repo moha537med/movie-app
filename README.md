@@ -40,6 +40,9 @@ Check out the live version of this project here: [movie-app.vercel.app](https://
 - **404 Not Found Page**  
   - Displays a friendly message when users navigate to a non-existent route.
 
+- **Back to Top Button**  
+  - Scroll smoothly back to the top of the page with one click.
+
 - **Routing**  
   - Seamless page navigation using `react-router-dom`.
 
