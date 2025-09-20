@@ -55,7 +55,7 @@ export default function MovieCard({ movie }) {
         />
     </Link>
 
-      <h3 className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-semibold my-2">
+      <h3 className="text-[16px] h-[58px] line-clamp-3 my-3 sm:text-[18px] md:text-[20px] lg:text-[20px] font-semibold ">
         {title}
       </h3>
 
@@ -64,26 +64,28 @@ export default function MovieCard({ movie }) {
         <span>⭐ {vote_average}</span>
       </div>
 
-      {alreadyExists ? (
-        <Button
-          type="button"
-          text="Remove Favorite"
-          backgroundColor="#444"
-          color="#fff"
-          onClick={handleRemoveFavorite}
-          className="text-sm sm:text-base"
-          loading="lazy"
-        />
-      ) : (
-        <Button
-          type="button"
-          text="Add Favorite"
-          backgroundColor="#e50914"
-          color="#fff"
-          onClick={handleAddFavorite}
-          className=" text-sm sm:text-base"
-        />
-      )}
+      <div className="mt-auto">
+        {alreadyExists ? (
+          <Button
+            type="button"
+            text="Remove Favorite"
+            backgroundColor="#444"
+            color="#fff"
+            onClick={handleRemoveFavorite}
+            className="text-sm sm:text-base"
+            loading="lazy"
+          />
+        ) : (
+          <Button
+            type="button"
+            text="Add Favorite"
+            backgroundColor="#e50914"
+            color="#fff"
+            onClick={handleAddFavorite}
+            className=" text-sm sm:text-base"
+          />
+        )}
+      </div>
     </div>
   );
 }
