@@ -28,7 +28,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/"
-              className="text-white text-base font-semibold hover:underline hover:text-[18px] hover:uppercase hover:tracking-[2px] hover:font-bold hover:text-blue-500 transition-all duration-300"
+              className="text-white text-base font-semibold hover:underline hover:text-[18px] hover:font-bold hover:text-blue-500 transition-all duration-300"
             >
               Home
             </Link>
@@ -37,7 +37,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/search"
-              className="text-white text-base font-semibold hover:underline hover:text-[18px] hover:uppercase hover:tracking-[2px] hover:font-bold hover:text-blue-500 transition-all duration-300 flex items-center gap-1"
+              className="text-white text-base font-semibold hover:underline hover:text-[18px] hover:font-bold hover:text-blue-500 transition-all duration-300 flex items-center gap-1"
             >
               Search <FaSearch className="inline-block ml-[3px] align-middle" />
             </Link>
@@ -46,7 +46,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/favorites"
-              className="text-white text-base font-semibold hover:underline hover:text-[18px] hover:uppercase hover:tracking-[2px] hover:font-bold hover:text-blue-500 transition-all duration-300 flex items-center gap-1"
+              className="text-white text-base font-semibold hover:underline hover:text-[18px] hover:font-bold hover:text-blue-500 transition-all duration-300 flex items-center gap-1"
             >
               Favorites <FaHeart className="inline-block ml-[3px] align-middle" />
             </Link>
