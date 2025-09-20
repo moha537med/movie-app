@@ -37,8 +37,8 @@ export default function MovieCard({ movie }) {
 
   return (
     <div
-      className="bg-gradient-to-br from-[#1a1a1a] to-[#0c0c0c] 
-                border border-[#e5091450] rounded-2xl overflow-hidden 
+      className="bg-[#1a1a1a] shadow-[0_8px_25px_rgba(0,0,0,0.8)]
+                 rounded-2xl overflow-hidden 
                 text-center p-3  md:p-4 lg:p-5 
                 text-white cursor-pointer transition-transform duration-300 
                 hover:scale-105"

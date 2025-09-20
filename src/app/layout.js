@@ -3,6 +3,7 @@ import { FavoritesProvider } from "@/Components/FavoritesContext";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; 
 import Navbar from "@/Components/Navbar";
+import BackToTop from "@/Components/BackToTop";
 
 export const metadata = {
   title: "Movies App",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
           />
           <Navbar />
           {children}
+          <BackToTop />
         </FavoritesProvider>
       </body>
     </html>

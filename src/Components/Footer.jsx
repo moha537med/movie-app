@@ -20,13 +20,13 @@ function Footer() {
         <h4 className="mb-3 text-base sm:text-lg font-semibold">Quick Links</h4>
         <ul className="list-none p-0 text-sm sm:text-base space-y-2">
           <li>
-            <Link href="/" className="text-[#ccc] no-underline hover:text-white transition">Home</Link>
+            <Link href="/" className="text-[#ccc] no-underline hover:text-[#e50914] transition">Home</Link>
           </li>
           <li>
-            <Link href="/search" className="text-[#ccc] no-underline hover:text-white transition">Movies</Link>
+            <Link href="/search" className="text-[#ccc] no-underline hover:text-[#e50914] transition">Movies</Link>
           </li>
           <li>
-            <Link href="/favorites" className="text-[#ccc] no-underline hover:text-white transition">Favorites</Link>
+            <Link href="/favorites" className="text-[#ccc] no-underline hover:text-[#e50914] transition">Favorites</Link>
           </li>
         </ul>
       </div>

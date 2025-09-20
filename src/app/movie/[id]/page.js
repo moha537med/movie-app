@@ -43,7 +43,7 @@ export default async function MovieDetailsPage({ params }) {
           <Image
             src={
               movie.poster_path
-                ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+                ? `https://image.tmdb.org/t/p/w780${movie.poster_path}`
                 : "/no-image.webp"
             }
             alt={movie.title || "Movie poster"}

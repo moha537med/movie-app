@@ -33,7 +33,7 @@ export default async function PopularMovies() {
       {movies.length === 0 ? (
         <p className="text-[#ccc]">No Popular movies found.</p>
       ) : (
-      <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid gap-4 sm:gap-5 md:gap-6 lg:gap-7 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {sliceEight.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
         ))}

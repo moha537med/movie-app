@@ -30,11 +30,12 @@ export default function HeroSection() {
 
         <Link href={`/movie/299534`} className="w-full">
           <Image
-            src="https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg"
+            src="https://image.tmdb.org/t/p/original/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg"
             alt="Movie Poster"
-            width={500}
+            width={1280}
             height={750}
-            className="w-full max-h-[400px] sm:max-h-[450px] md:max-h-[500px] object-cover rounded-2xl shadow-[0_8px_25px_rgba(0,0,0,0.8)] transition-all duration-300 hover:scale-105"
+            quality={100}
+            className="w-full max-h-[400px] sm:max-h-[450px] md:max-h-[500px] object-cover rounded-2xl shadow-[0_8px_25px_rgba(0,0,0,0.8)] transition-all duration-300 hover:scale-[1.03]"
             priority
           />
         </Link>

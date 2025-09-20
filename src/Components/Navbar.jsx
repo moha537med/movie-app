@@ -65,7 +65,7 @@ export default function Navbar() {
 
         <Link
           href="/signup"
-          className="text-white text-base font-normal bg-[#23a6f0] px-[15px] py-[10px] rounded-[10px] ml-5 hover:bg-[#e50914] transition-all duration-300 flex items-center gap-1"
+          className="text-white text-base font-normal bg-[#e50914] px-[15px] py-[10px] rounded-[10px] ml-5 hover:bg-[#a20710] transition-all duration-300 flex items-center gap-1"
         >
           Sign Up
         </Link>
@@ -82,13 +82,13 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className=" fixed top-0 left-0 h-screen w-full bg-black flex flex-col items-center gap-6 py-10 z-50 md:hidden ">
-          <Link href="/" className="text-white text-lg font-semibold hover:text-sky-600" onClick={() => setIsOpen(false)}>
+          <Link href="/" className="text-white text-lg font-semibold hover:text-[#e50914]" onClick={() => setIsOpen(false)}>
             Home
           </Link>
-          <Link href="/search" className="text-white text-lg font-semibold hover:text-sky-600 flex items-center gap-1" onClick={() => setIsOpen(false)}>
+          <Link href="/search" className="text-white text-lg font-semibold hover:text-[#e50914] flex items-center gap-1" onClick={() => setIsOpen(false)}>
             Search <FaSearch />
           </Link>
-          <Link href="/favorites" className="text-white text-lg font-semibold hover:text-sky-600 flex items-center gap-1" onClick={() => setIsOpen(false)}>
+          <Link href="/favorites" className="text-white text-lg font-semibold hover:text-[#e50914] flex items-center gap-1" onClick={() => setIsOpen(false)}>
             Favorites <FaHeart />
           </Link>
           <Link href="/login" className="text-white text-lg font-semibold px-5 py-2 rounded hover:bg-[#e50914] transition-all duration-300 flex items-center gap-1" onClick={() => setIsOpen(false)}>
@@ -96,7 +96,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/signup"
-            className="text-white text-lg font-normal bg-[#23a6f0] px-5 py-2 rounded-[10px] hover:bg-[#e50914] transition-all duration-300"
+            className="text-white text-lg font-normal bg-[#e50914] px-5 py-2 rounded-[10px] hover:bg-[#a20710] transition-all duration-300"
             onClick={() => setIsOpen(false)}
           >
             Sign Up
